@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from './navbar/Navbar'
-import Banner from "./banner/Banner"
-import Row from "./row/Row"
-import requests from '../axios/Requests'
+import Navbar from '../navbar/Navbar'
+import Banner from "../banner/Banner"
+import Row from "../row/Row"
+import requests from '../../axios/Requests'
+import "./homes.css"
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className='homes'>
         <Navbar/>
         <Banner/>
         <Row
