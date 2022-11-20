@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className={`nav ${show &&"nav__black"}`}>
     <div className='nav__contents'>
-    <NavLink style={{textDecoration: 'none'}} to="/">
+    <NavLink style={{textDecoration: 'none'}} to="/Netflix-React/">
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg' alt='Netflix Logo' className='nav__logo' />
     </NavLink>
     <NavLink style={{textDecoration: 'none'}} to="/profile">
